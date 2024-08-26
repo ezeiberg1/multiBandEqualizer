@@ -1,1 +1,3 @@
-# multiBandEqualizer
+Designing a Multi-Band Equalizer to Filter and Enhance Audio Samples
+
+This case study uses RC circuits along with MAT- LAB to explore different audio presets and process treble boost, bass bass, and a unity setting by modeling an equalizer. The equalizer consists of 5 bands to process 5 different frequency ranges. The lowest band consists of a low pass filter, the highest band consists of a high pass filter, and the middle bands are made up of a low pass filter and high pass filter in series. All the bands are placed in parallel, so when a signal is passed through the equalizer, a separate gain can be applied to each frequency range in order to alter the audio to improve or change the sound quality. The various settings of the equalizer were successfully modeled, but because these filters are not ideal, the filters do not filter the audio perfectly at each cutoff frequency.
